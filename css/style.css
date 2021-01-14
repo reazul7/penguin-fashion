@@ -1,0 +1,156 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+h1, h2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: bold;
+}
+h3, h5, p{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-size: 80px;
+}
+h2{
+    font-size: 48px;
+}
+h3{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+h5{
+    font-size: 24px;
+    font-weight: bold;
+}
+.orange-color-text{
+    color: #FABE4C;
+}
+.nav-img, .nav-img img{
+    width: 100%;
+}
+ul li a{
+    color: black!important;
+    font-weight: 600;
+}
+header{
+    background-color: #FFFBF0;
+    padding-bottom: 2em;
+}
+.service-area-img{
+    width: 50%;
+}
+.card-img, .card-img-bottom, .card-img-top {
+	width: 100%;
+	height: 70%;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.service-area-box{
+    border-radius: 10px;
+}
+.buy-now-btn, .submit-btn{
+    background-image: linear-gradient(180deg, #A1BA42, #88A31D);
+    color: white;
+    font-weight: 600;
+    border: 0;
+    border-radius: 7px;
+}
+.card-img-top{
+    background: #F1F1F1;
+    border-radius: 20px;
+    padding-bottom: 20px;
+}
+.card{
+    border: 0;
+}
+.card-design{
+    border-radius: 10px;
+}
+.card-footer{
+    border: 0;
+    background-color: white;
+}
+
+@media (max-width: 992px){
+    .nav-img{
+        width: 80%;
+    }
+    .nav-img img{
+        width: 100%;
+    }
+    h1{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 28px;
+    }
+    .buy-now-btn{
+        font-weight: 500;
+        padding: 10px;
+    }
+    .service-area-img{
+        width: 40%;
+    }
+    .service-area-right{
+        order: 0;
+    }
+    .service-area-left{
+        order: 1;
+    }
+}
+
+@media (max-width: 768px){
+    .service-area-img{
+        width: 15%;
+    }
+    .service-area-text{
+        padding: 1em;
+    }
+    .service-area-right{
+        order: 0;
+        padding-bottom: 20px;
+    }
+    .service-area-left{
+        order: 1;
+    }
+    .nav-img{
+        width: 70%;
+    }
+    .nav-img img{
+        width: 100%;
+    }h1{
+        font-size: 50px;
+        font-weight: bold;
+    }
+    h2{
+        text-align: center;
+    }
+    .service-area-right{
+        order: 0;
+    }
+    .service-area-left{
+        order: 1;
+    }
+}
+
+@media (max-width: 576px){
+    .service-area-img{
+        width: 15%;
+        padding-top: 5px;
+    }
+    .service-area-right{
+        order: 0;
+    }
+    .service-area-left{
+        order: 1;
+    }
+    .nav-img{
+        width: 60%;
+    }
+    .nav-img img{
+        width: 100%;
+    }
+}
