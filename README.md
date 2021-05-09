@@ -1,5 +1,3 @@
-# penguin-fashion
-
 <h2 align="center">
   Penguin Fashion<br/>
   <a href="https://reazul7.github.io/penguin-fashion/" target="_blank">Penguin Fashion Lite Site</a>
